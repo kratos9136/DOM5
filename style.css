@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+html main,
+body main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  gap: 2vw;
+}
+html main .profile,
+body main .profile {
+  display: flex;
+  width: 500px;
+  gap: 0.8vw;
+}
+html main .profile img,
+body main .profile img {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+}
+html main .profile h1,
+body main .profile h1 {
+  font-size: 3vw;
+  margin-top: 8px;
+  color: aliceblue;
+}
+html main .card,
+body main .card {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+}
+html main .card i,
+body main .card i {
+  position: absolute;
+  color: transparent;
+  background-image: url(https://t3.ftcdn.net/jpg/01/14/77/58/360_F_114775804_4yfG9qbKp1NlF1RLo4MUlGIVj9MWhnnc.jpg);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 100px;
+  transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+  transition: all cubic-bezier(0.65, 1, 0.77, 1.44) 0.4s;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+html main .card video,
+body main .card video {
+  height: 190%;
+  width: 220%;
+  padding-left: 150px;
+}
+html main .symbol,
+body main .symbol {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 3vw;
+}/*# sourceMappingURL=style.css.map */
