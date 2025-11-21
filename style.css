@@ -69,8 +69,6 @@ body main .card video {
   height: 190%;
   width: 220%;
   padding-left: 150px;
-  will-change: transform;
-  transform: translateZ(0);
 }
 html main .symbol,
 body main .symbol {
