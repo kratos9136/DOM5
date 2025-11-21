@@ -74,6 +74,9 @@ body {
                 width: 220%;
                 padding-left:150px ;
                 
+                will-change: transform;
+                transform: translateZ(0);
+                
             }
 
             
