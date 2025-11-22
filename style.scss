@@ -8,7 +8,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    
+
 
     main {
         height: 100%;
@@ -19,28 +19,29 @@ body {
         flex-direction: column;
         background-color: black;
         gap: 2vw;
-        
 
-        .profile{
-                display: flex;
-                width: 500px;
-                gap: 0.8vw;
-                              
 
-                img{
-                    height: 5vw;
-                    width: 5vw;
-                    border-radius: 50%;
-                    
-                    
-                }
-                h1{
-                    font-size: 3vw;
-                    margin-top: 8px;
-                    color: aliceblue;
-                }
+        .profile {
+            display: flex;
+            width: 500px;
+            gap: 0.8vw;
+
+
+            img {
+                height: 5vw;
+                width: 5vw;
+                border-radius: 50%;
+
+
             }
-       
+
+            h1 {
+                font-size: 3vw;
+                margin-top: 8px;
+                color: aliceblue;
+            }
+        }
+
 
         .card {
             height: 500px;
@@ -53,44 +54,46 @@ body {
             align-items: center;
             position: relative;
 
-            i{
+            i {
                 position: absolute;
-                color:transparent;
+                color: transparent;
                 background-image: url(https://t3.ftcdn.net/jpg/01/14/77/58/360_F_114775804_4yfG9qbKp1NlF1RLo4MUlGIVj9MWhnnc.jpg);
                 background-size: cover;
                 background-clip: text;
                 -webkit-background-clip: text;
                 font-size: 100px;
-                transform: translate(-50%,-50%) scale(0) rotate(-60deg);
-                transition: all cubic-bezier(.65,1,.77,1.44)0.4s;
+                transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+                transition: all cubic-bezier(.65, 1, .77, 1.44)0.4s;
                 opacity: 0;
-               
+
                 transition: all ease 0.4s;
             }
-            
 
-            video{
+
+            video {
                 height: 190%;
                 width: 220%;
-                padding-left:150px ;
+                padding-left: 150px;
                 
-                
-                
+
+
+
             }
 
             
-           
-            
+
+
+
         }
 
-        .symbol{
+        .symbol {
             color: white;
             display: flex;
             justify-content: space-between;
             width: 500px;
             font-size: 3vw;
-            
+
         }
-         
+
     }
 }

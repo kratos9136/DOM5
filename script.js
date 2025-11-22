@@ -3,6 +3,8 @@ let mainlike = document.querySelector("#mainlike")
 let like = document.querySelector("#like")
 
 
+
+
 card.addEventListener("dblclick", function () {
     mainlike.style.opacity = 1
     mainlike.style.transform = 'translate(-50%,-50%) scale(1) rotate(0)'
@@ -19,11 +21,11 @@ card.addEventListener("dblclick", function () {
         mainlike.style.transform= 'translate(-50%,-50%) scale(0) rotate(-60deg)'
     },1200)
 
-    like.style.color="red";
-
-
-
+    like.style.color="red";    
 })
+
+
+
 
 
 like.addEventListener("click", function () {
